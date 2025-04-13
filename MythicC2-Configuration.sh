@@ -37,3 +37,4 @@ echo "----------STARTING MYTHIC C2 THIS MIGHT TAKE SOME TIME----------"
 sudo ./mythic-cli start
 echo "----------GO TO THE MYTHIC DIRECTORY AND CHECK credentials.txt FILE FOR THE USERNAME AND PASSWORD----------"
 echo "----------TO STOP IT GO TO THE MYTHIC FOLDER AND RUN sudo ./mythic-cli stop----------"
+cat credentials.txt
