@@ -1,2 +1,2 @@
 # Offensive-Security-Tools
-Here i will be uploading tools and configurations that can be done in 1 line
+Here, you'll find tools, configurations, and clever tricks that deliver powerful results, all accomplished with just one line of code. Whether you're streamlining your workflow or automating tasks, these snippets will save you time and effort in your penetration testing and security operations.
