@@ -1,3 +1,10 @@
+'''
+This code is used for subdomain enumeration and directory bruteforcing.
+Usage: python subdomain.py abc.subdomain.com <subdomain_wordlist> <directory_wordlist>
+example if the domain is owasp.org just add abc to the front and make it abc.owasp.org
+2 files will be created one for subdomain with status 200 and another for directories with status 200
+does not follow redirect
+'''
 import sys
 import re
 import requests
