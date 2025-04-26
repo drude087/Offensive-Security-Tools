@@ -33,4 +33,13 @@ bash, socat, java, python, php, nc.exe, ruby, perl, go, lua, rust, haskell, d, s
 
 This script quickly generates reverse shell one-liners in various programming languages.
 
+## 3. subdomain.py
 
+Bruteforce subdomains and directories with HTTP status code 200:
+
+```bash
+python3 subdomain.py <domain> <subdomain_wordlist> <directory_wordlist>
+```
+This script helps find hidden subdomains and accessible directories during reconnaissance.
+
+If executed in linux then create an environment and install required packages to run the script.
