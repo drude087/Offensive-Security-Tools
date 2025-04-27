@@ -61,7 +61,6 @@ if url_type == "0":
                                 print("[+] Interesting content found!")
                                 print(res.text)
                                 found = True
-                                break  # Stop if found
                         except requests.exceptions.RequestException as e:
                             print("[-] Error:", e)
 
@@ -91,7 +90,7 @@ elif url_type == "1":
             if res.status_code == 200 and "root:x:" in res.text:
                 print("[+] Potential vulnerability found!")
                 print(res.text)
-                break  # Stop if found
+
         except requests.exceptions.RequestException as e:
             print("[-] Error:", e)
 
