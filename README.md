@@ -10,6 +10,7 @@ Here, you'll find tools, configurations, and clever tricks that deliver powerful
 - [reverseshell.py](#2-reverseshellpy)
 - [subdomain.py](#3-subdomainpy)
 - [pathtraversal.py](#4-pathtraversalpy)
+- [Windows_enum.ps1](#5-Windows_enumps1)
   
 ---
 
@@ -57,3 +58,11 @@ Here there are only 2 types 0 and 1. 0 is when the code find an url that can be 
 This Python script scans a web page for potential file paths or vulnerable URLs using regex and tests them with a list of payloads to detect path traversal vulnerabilities. It checks for URLs containing =, splits them, and attempts to exploit potential vulnerabilities by appending payloads to the URL..
 
 If executed in linux then create an environment and install required packages to run the script.
+
+## 5. Windows_enum.ps1
+
+Run it in the windows machine (This is a post exploitation tool):
+
+```bash
+./Windows_enum.ps1
+```
