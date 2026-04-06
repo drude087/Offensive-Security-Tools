@@ -37,10 +37,10 @@ This script quickly generates reverse shell one-liners in various programming la
 
 ## 3. subdomain.py
 
-Bruteforce subdomains and directories with HTTP status code 200:
+Bruteforce subdomains and directories: (Changed this to little better version from my previous code. Need to add word filter)
 
 ```bash
-python3 subdomain.py <domain> <subdomain_wordlist> <directory_wordlist>
+python3 -d <domain name> --type <subdomain or directory bruteforce> -p <port> -w <wordlist> -P <protocol used (http/https)> 
 ```
 This script helps find hidden subdomains and accessible directories during reconnaissance.
 
