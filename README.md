@@ -8,7 +8,7 @@ Here, you'll find tools, configurations, and clever tricks that deliver powerful
 
 - [MythicC2-Configuration.sh](#1-mythicc2-configurationsh)
 - [reverseshell.py](#2-reverseshellpy)
-- [subdomain.py](#3-subdomainpy)
+- [subdomain](#3-subdomain)
 - [pathtraversal.py](#4-pathtraversalpy)
 - [Windows_enum.ps1](#5-Windows_enumps1)
   
@@ -49,9 +49,9 @@ This script helps find hidden subdomains during reconnaissance.
 
 To execute this from anywhere
 ```bash
+chmod +x subdomain
 sudo mv subdomain /usr/local/bin/subdomain
 sudo chmod +x /usr/local/bin/subdomain
-
 ```
 
 ## 4. pathtraversal.py
