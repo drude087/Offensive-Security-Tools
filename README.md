@@ -35,16 +35,24 @@ bash, socat, java, python, php, nc.exe, ruby, perl, go, lua, rust, haskell, d, s
 
 This script quickly generates reverse shell one-liners in various programming languages.
 
-## 3. subdomain.py
+## 3. subdomain
 
-Bruteforce subdomains and directories: (Changed this to little better version from my previous code. Need to add word filter)
+Enumerates Subdomains for pentesting
 
 ```bash
-python3 -d <domain name> --type <subdomain or directory bruteforce> -p <port> -w <wordlist> -P <protocol used (http/https)> 
-```
-This script helps find hidden subdomains and accessible directories during reconnaissance.
+subdomain -d <domain name>
 
-If executed in linux then create an environment and install required packages to run the script.
+# EXAMPLE
+subdomain -d google.com 
+```
+This script helps find hidden subdomains during reconnaissance.
+
+To execute this from anywhere
+```bash
+sudo mv subdomain /usr/local/bin/subdomain
+sudo chmod +x /usr/local/bin/subdomain
+
+```
 
 ## 4. pathtraversal.py
 
